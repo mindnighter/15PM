@@ -1,0 +1,49 @@
+.title, .wrap{
+    text-align: center;
+}
+
+.wrapper{
+    display: inline-block;
+    background-color: #b0f5deab;
+    border-radius: 10px;
+}
+
+.main, .item{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.item{
+    text-align: start;
+    margin: 30px;
+}
+
+.item input{
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.wrapper input[type="submit"]{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0cd492;
+    color: #0cd492;
+    background-color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.error{
+    font-size: 18px;
+    color: #e44f4f;
+}

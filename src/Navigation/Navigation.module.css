@@ -1,0 +1,14 @@
+.links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.links span{
+    cursor: pointer;
+}
+
+.here {
+    font-weight: bold;
+    color: #e67272;
+}
